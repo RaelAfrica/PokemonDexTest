@@ -15,7 +15,7 @@ class PokeCell: UICollectionViewCell {
     
     var pokemonVar: Pokemon!
     
-    func configureCell (pokemonPara:Pokemon){
+    func configureCell (_ pokemonPara:Pokemon){
         
         self.pokemonVar = pokemonPara
         
