@@ -40,7 +40,7 @@
                             </imageView>
                             <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="yNS-aD-CIg">
                                 <rect key="frame" x="20" y="129" width="335" height="518"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                 <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="C4T-Kg-smt">
                                     <size key="itemSize" width="103" height="103"/>
                                     <size key="headerReferenceSize" width="0.0" height="0.0"/>
@@ -70,6 +70,7 @@
                                                 </label>
                                             </subviews>
                                         </view>
+                                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                         <constraints>
                                             <constraint firstItem="D8b-2i-JD9" firstAttribute="top" secondItem="uN6-4o-ups" secondAttribute="bottom" id="2Lf-T3-hqo"/>
                                             <constraint firstItem="uN6-4o-ups" firstAttribute="top" secondItem="h4z-oz-aOY" secondAttribute="top" id="DfA-l5-zDH"/>
@@ -105,6 +106,9 @@
                             <constraint firstItem="uXR-sf-jmW" firstAttribute="top" secondItem="iwg-Li-pz8" secondAttribute="bottom" id="y2l-5F-9Ay"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="collection" destination="yNS-aD-CIg" id="ntn-RK-Mii"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
