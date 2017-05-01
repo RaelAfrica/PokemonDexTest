@@ -28,7 +28,7 @@
                                     <constraint firstAttribute="height" constant="65" id="eAf-qe-gTf"/>
                                 </constraints>
                             </view>
-                            <searchBar contentMode="redraw" searchBarStyle="minimal" translatesAutoresizingMaskIntoConstraints="NO" id="uXR-sf-jmW">
+                            <searchBar contentMode="redraw" searchBarStyle="minimal" placeholder="search" translatesAutoresizingMaskIntoConstraints="NO" id="uXR-sf-jmW">
                                 <rect key="frame" x="0.0" y="65" width="375" height="44"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="44" id="7ZB-Sr-4Al"/>
@@ -108,6 +108,7 @@
                     </view>
                     <connections>
                         <outlet property="collection" destination="yNS-aD-CIg" id="ntn-RK-Mii"/>
+                        <outlet property="searchBar" destination="uXR-sf-jmW" id="K6y-Ns-GAv"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
